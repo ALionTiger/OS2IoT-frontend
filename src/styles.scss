@@ -94,6 +94,18 @@ body {
   white-space: pre-line;
 }
 
+.welcome-screen .mat-dialog-container {
+  background-color: #55b156;
+}
+
 .mat-card-header-text-ml-0 .mat-card-header-text {
   margin-left: 0;
+}
+
+.hide-checkbox {
+  color: $color-white-001;
+
+  .mat-checkbox-frame {
+    border-color: $color-white-001;
+  }
 }
